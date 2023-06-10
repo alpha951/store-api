@@ -4,9 +4,14 @@ This is a Store API project that provides static product data with multiple quer
 
 ## Installation
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `gh repo clone alpha951/store-api`
 2. Navigate to the project directory: `cd store-api`
 3. Install dependencies: `npm install`
+4. Create a `.env` file in the root directory and add the following environment variables:
+    - `PORT`: The port number for the server to listen on.
+    - `MONGO_URI`: The MongoDB connection string.
+
+```env
 
 ## Usage
 
@@ -15,14 +20,16 @@ This is a Store API project that provides static product data with multiple quer
 
 ## Endpoints
 
-### GET /products/static
+### GET api/v1/products/static
 
 This endpoint returns static product data for testing purposes.
 
 #### Example Request
 
 ```
+
 GET api/v1/products/static
+
 ```
 
 #### Example Response

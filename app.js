@@ -10,13 +10,9 @@ const connectDB = require('./db/connect.js');
 
 const PORT = process.env.PORT || 3000;
 
-// not used in this project
+// not used in this project but can be used to serve static files in json format
 app.use(express.json())
 
-// routes
-app.get('/', (req, res) => {
-    res.send('Welcome to the Store API');
-});
 
 app.use('/api/v1/products', productsRouter);
 
