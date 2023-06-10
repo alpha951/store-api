@@ -11,8 +11,6 @@ This is a Store API project that provides static product data with multiple quer
     - `PORT`: The port number for the server to listen on.
     - `MONGO_URI`: The MongoDB connection string.
 
-```env
-
 ## Usage
 
 1. Start the server: `npm start`
@@ -20,17 +18,13 @@ This is a Store API project that provides static product data with multiple quer
 
 ## Endpoints
 
-### GET api/v1/products/static
+### ```GET api/v1/products/static```
 
 This endpoint returns static product data for testing purposes.
 
 #### Example Request
 
-```
-
-GET api/v1/products/static
-
-```
+```GET api/v1/products/static```
 
 #### Example Response
 
@@ -54,12 +48,11 @@ GET api/v1/products/static
       "createdAt": "2023-06-09T12:00:00.000Z",
       "updatedAt": "2023-06-09T12:00:00.000Z"
     },
-    ...
   ]
 }
 ```
 
-### GET api/v1/products
+### ```GET api/v1/products```
 
 This endpoint allows querying and retrieving products based on various parameters.
 
