@@ -14,7 +14,8 @@ This is a Store API project that provides static product data with multiple quer
 ## Usage
 
 1. Start the server: `npm start`
-2. Access the API endpoints using a tool like Postman or any HTTP client.
+2. Run ```node populate.js``` to populate the cloud database with sample data in ```package.jsoon``` file.
+3. Access the API endpoints using a tool like Postman or any HTTP client.
 
 ## Endpoints
 
