@@ -67,7 +67,7 @@ This endpoint allows querying and retrieving products based on various parameter
 
 #### Example Request
 
-```
+``` js
 GET api/v1/products?featured=true&company=CompanyA&name=phone&sort=price,-rating&fields=name,price,rating&page=1&limit=10
 ```
 
